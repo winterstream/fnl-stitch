@@ -1,0 +1,25 @@
+{:fennel-path "./?.fnl;./?/init.fnl;src/?.fnl;src/?/init.fnl;test/?.fnl;test/?/init.fnl"
+ :lua-version :lua5.1
+ :extra-globals ""
+ :lints {:unused-definition true
+         :unknown-module-field true
+         :unnecessary-method true
+         :unnecessary-tset true
+         :unnecessary-unary true
+         :empty-do true
+         :redundant-do true
+         :bad-unpack true
+         :var-never-set true
+         :op-with-no-arguments true
+         :no-decreasing-comparison true
+         :match-should-case true
+         :inline-unpack true
+         :empty-let true
+         :not-enough-arguments true
+         :too-many-arguments true
+         :duplicate-table-keys true
+         :zero-indexed true
+         :legacy-multival true
+         :legacy-multival-case true
+         :invalid-flsproject-settings true
+         :nested-associative-operator true}}

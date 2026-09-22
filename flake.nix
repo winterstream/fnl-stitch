@@ -22,6 +22,8 @@
           packages = [
             pkgs.luajit
             pkgs.luajitPackages.fennel
+            pkgs.fennel-ls
+            pkgs.fnlfmt
           ];
         };
       }
