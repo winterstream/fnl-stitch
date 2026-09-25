@@ -3,4 +3,6 @@ set -eu
 
 cd "$(dirname "$0")"
 ./lint.sh
-exec fennel test/run.fnl
+fennel test/run.fnl
+./examples/basic/run.sh
+exec ./examples/profiles/run.sh
