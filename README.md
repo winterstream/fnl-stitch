@@ -1,5 +1,7 @@
 # Stitch for Fennel
 
+[![CI](https://github.com/winterstream/fnl-stitch/actions/workflows/ci.yml/badge.svg)](https://github.com/winterstream/fnl-stitch/actions/workflows/ci.yml)
+
 Stitch builds applications from components and manages their lifecycles. This
 repository contains its Fennel implementation. It uses ideas from the Lua
 [Stitch](https://github.com/winterstream/lua-stitch) project and Clojure's
@@ -64,8 +66,8 @@ reverse dependency order.
 
 A **Ref** (`st.ref`) creates a hard dependency: selecting its consumer also
 selects the referenced component. A **Refset** (`st.refset`) collects the
-matching components that are already selected without selecting or
-initializing them.
+matching components that are already selected without selecting or initializing
+them.
 
 ```fennel
 (local st (require :stitch))
