@@ -147,7 +147,6 @@
   (. annotation-registry key))
 
 ;;; Table and key helpers
-;;; Table and key helpers
 
 (fn keys-of [table]
   (icollect [key _ (pairs table)] key))
